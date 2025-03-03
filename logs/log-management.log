@@ -1,0 +1,115 @@
+2025-03-03T20:51:23.048+05:30  INFO 19268 --- [log-management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 21.0.1 with PID 19268 (started by GRB in E:\GDSE68-Sem03\AD2\Log-Management)
+2025-03-03T20:51:23.058+05:30  INFO 19268 --- [log-management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T20:51:24.128+05:30  INFO 19268 --- [log-management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 1.354 seconds (process running for 2.222)
+2025-03-03T21:20:16.389+05:30  INFO 2012 --- [log-management] [main] l.i.l.LogManagementApplication           : Starting LogManagementApplication using Java 21.0.1 with PID 2012 (E:\GDSE68-Sem03\AD2\Log-Management\target\classes started by GRB in E:\GDSE68-Sem03\AD2\Log-Management)
+2025-03-03T21:20:16.392+05:30  INFO 2012 --- [log-management] [main] l.i.l.LogManagementApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T21:20:17.023+05:30  INFO 2012 --- [log-management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-03-03T21:20:17.032+05:30  INFO 2012 --- [log-management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T21:20:17.032+05:30  INFO 2012 --- [log-management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T21:20:17.059+05:30  INFO 2012 --- [log-management] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T21:20:17.060+05:30  INFO 2012 --- [log-management] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 640 ms
+2025-03-03T21:20:17.308+05:30  WARN 2012 --- [log-management] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-03T21:20:17.319+05:30  INFO 2012 --- [log-management] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-03T21:20:17.331+05:30 ERROR 2012 --- [log-management] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+2025-03-03T21:21:34.489+05:30  INFO 5444 --- [log-management] [main] l.i.l.LogManagementApplication           : Starting LogManagementApplication using Java 21.0.1 with PID 5444 (E:\GDSE68-Sem03\AD2\Log-Management\target\classes started by GRB in E:\GDSE68-Sem03\AD2\Log-Management)
+2025-03-03T21:21:34.491+05:30  INFO 5444 --- [log-management] [main] l.i.l.LogManagementApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T21:21:35.063+05:30  INFO 5444 --- [log-management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-03-03T21:21:35.071+05:30  INFO 5444 --- [log-management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T21:21:35.072+05:30  INFO 5444 --- [log-management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T21:21:35.098+05:30  INFO 5444 --- [log-management] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T21:21:35.099+05:30  INFO 5444 --- [log-management] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 575 ms
+2025-03-03T21:21:35.345+05:30  INFO 5444 --- [log-management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-03-03T21:21:35.350+05:30  INFO 5444 --- [log-management] [main] l.i.l.LogManagementApplication           : Started LogManagementApplication in 1.185 seconds (process running for 1.658)
+2025-03-03T21:21:44.611+05:30  INFO 5444 --- [log-management] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T21:21:44.612+05:30  INFO 5444 --- [log-management] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T21:21:44.613+05:30  INFO 5444 --- [log-management] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-03T21:22:12.113+05:30  INFO 5444 --- [log-management] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T21:22:12.120+05:30  INFO 5444 --- [log-management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-03T21:22:13.816+05:30  INFO 9520 --- [log-management] [main] l.i.l.LogManagementApplication           : Starting LogManagementApplication using Java 21.0.1 with PID 9520 (E:\GDSE68-Sem03\AD2\Log-Management\target\classes started by GRB in E:\GDSE68-Sem03\AD2\Log-Management)
+2025-03-03T21:22:13.818+05:30  INFO 9520 --- [log-management] [main] l.i.l.LogManagementApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T21:22:14.398+05:30  INFO 9520 --- [log-management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-03-03T21:22:14.406+05:30  INFO 9520 --- [log-management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T21:22:14.406+05:30  INFO 9520 --- [log-management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T21:22:14.434+05:30  INFO 9520 --- [log-management] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T21:22:14.434+05:30  INFO 9520 --- [log-management] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 582 ms
+2025-03-03T21:22:14.687+05:30  INFO 9520 --- [log-management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-03-03T21:22:14.694+05:30  INFO 9520 --- [log-management] [main] l.i.l.LogManagementApplication           : Started LogManagementApplication in 1.216 seconds (process running for 1.705)
+2025-03-03T21:22:27.257+05:30  INFO 9520 --- [log-management] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T21:22:27.257+05:30  INFO 9520 --- [log-management] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T21:22:27.258+05:30  INFO 9520 --- [log-management] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-03T21:22:27.275+05:30  INFO 9520 --- [log-management] [http-nio-8085-exec-1] l.i.l.controller.LogController           : Hello : This is INFO log message!
+2025-03-03T21:22:27.276+05:30  WARN 9520 --- [log-management] [http-nio-8085-exec-1] l.i.l.controller.LogController           : Hello : This is WARN log message!
+2025-03-03T21:22:27.277+05:30 ERROR 9520 --- [log-management] [http-nio-8085-exec-1] l.i.l.controller.LogController           : Hello : This is ERROR log message!
+2025-03-03T21:22:27.277+05:30 ERROR 9520 --- [log-management] [http-nio-8085-exec-1] l.i.l.controller.LogController           : Exception occurred!
+
+java.lang.Exception: This is an exception!
+	at lk.ijse.logmanagement.controller.LogController.getLog(LogController.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-03-03T21:22:35.005+05:30  INFO 9520 --- [log-management] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T21:22:35.011+05:30  INFO 9520 --- [log-management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-03T21:23:00.374+05:30  INFO 16908 --- [log-management] [main] l.i.l.LogManagementApplicationTests      : Starting LogManagementApplicationTests using Java 21.0.1 with PID 16908 (started by GRB in E:\GDSE68-Sem03\AD2\Log-Management)
+2025-03-03T21:23:00.375+05:30  INFO 16908 --- [log-management] [main] l.i.l.LogManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T21:23:01.318+05:30  INFO 16908 --- [log-management] [main] l.i.l.LogManagementApplicationTests      : Started LogManagementApplicationTests in 1.18 seconds (process running for 1.95)
