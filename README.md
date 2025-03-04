@@ -21,7 +21,7 @@ The Java Logger Intro Sample project is designed to help developers understand h
 1. **Clone the repository:**
 
    ```bash
-   https://github.com/GRB-Sample-Workspace/Java-Logger-Intro.git
+   https://github.com/GRB-Workspace/Java-Logger-Intro.git
    ```
 
 2. **Navigate to the project directory:**
@@ -31,7 +31,6 @@ The Java Logger Intro Sample project is designed to help developers understand h
    ```
 
 3. **Build and run the application:**
-
 
    ```bash
    mvn spring-boot:run

@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * -------------------------------------------------------------------
  * @project: Logger Intro
  * @since: 27-02-2025 09:15 AM
- * @available_on: https://github.com/GRB-Sample-Workspace/Logger-Intro
+ * @available_on: https://github.com/GRB-Workspace/Java-Logger-Intro
  * -------------------------------------------------------------------
  */
 @SpringBootApplication
